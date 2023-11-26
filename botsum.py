@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 
 # توکن ربات خود را در اینجا قرار دهید
-bot = telebot.TeleBot("6527196411:AAHU6h5qfuCJ4NWFHUB8FsOhRrY3fZSzonM")
+bot = telebot.TeleBot("TOKEN")
 
 @bot.message_handler(commands=['start'])
 def handle_start(message):
